@@ -1,0 +1,11 @@
+data:
+  path: "./data"
+  dataloader_num_workers: 10
+  repeat_training_samples_num: 1
+  dataset_num_samples_train: "full"
+  downscale_factor: 4
+  rescale_factor_intrinsics: 0.5
+  apply_alpha_map: True
+  upsample_flame_iterations: 1
+  force_rebuild: True
+  input_serials: ["222200036", "222200049"]

@@ -1,0 +1,53 @@
+data:
+  #path: "/home/oroz/gaussian-splatting/3DSSL-SS24_Generalizable3DHeadReconstruction/data"
+  path: "/opt/data/269-single-timestep-EXP-1-head"
+  dataloader_num_workers: 5 #10
+  repeat_training_samples_num: 1 #50
+  dataset_num_samples_train: "full"
+  downscale_factor: 3
+  rescale_factor_intrinsics: 0.5
+  apply_alpha_map: False
+  mask_Torso: True # Mask Torso also includes masking background
+  use_color_correction: True
+  upsample_flame_iterations: 2
+  force_rebuild: False
+  hair_gaussians_enabled: False
+  input_serials:  ["222200036", "222200049"]
+  use_depth: True #Check: model.use_depth
+  use_monocular_depth: False 
+  encoder: 'F' # 'F'-> Farl / 'R' -> resnet / 'N' -> none
+  #|-> encoder R: change input_image_features_dim to 512
+  #|-> encoder F: change input_image_features_dim to 779
+  use_template_flame: true
+logging:
+  name: 'template flame'
+  log_error_images_every_n_steps: 200 # 0 means disabled
+
+visualization:
+  enabled: False
+
+render:
+  background_color: [1, 1, 1]                # white
+
+model:
+  name: gauss_predictor_mlp_improved
+  checkpoint: 
+  use_depth: True #Check: data.use_depth
+  model_parameters:
+    input_image_features_dim: 779 #779
+    hidden_dim: 128 # 6
+    positional_encoding_dim: 20
+    latent_codes:
+      enabled: False
+    static_color: False
+    positional_encoding_color: True
+
+training:
+  max_epochs: 100 #100
+  lr: 0.0002 #2.0e-4
+  accumulate_grad_batches: 1 #4
+  lambda_l1: 0.8
+  lambda_ssim: 0.2
+  lambda_lpips: 1.0
+  lambda_depth: 0.5
+  lambda_gaussian_normalization: 0.1

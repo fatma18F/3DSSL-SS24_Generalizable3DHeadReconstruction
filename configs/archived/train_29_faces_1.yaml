@@ -1,0 +1,33 @@
+data:
+  path: "./data"
+  dataloader_num_workers: 15
+  repeat_training_samples_num: 50
+  dataset_num_samples_train: "full"
+  downscale_factor: 4
+  rescale_factor_intrinsics: 0.5
+  apply_alpha_map: True
+  upsample_flame_factor: 5
+  force_rebuild: False
+  input_serials: ["222200036", "222200049"]
+
+logging:
+  name: 'overfitting'
+
+visualization:
+  enabled: True
+
+render:
+  background_color: [1, 1, 1]                # white
+
+model:
+  name: gauss_predictor_mlp_small
+  checkpoint: null
+  model_parameters:
+    input_image_features_dim: 779
+    hidden_dim: 256
+    positional_encoding_dim: 20
+
+training:
+  max_epochs: 100
+  lr: 1.0e-4
+
