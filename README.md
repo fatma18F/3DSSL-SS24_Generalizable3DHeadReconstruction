@@ -1,4 +1,6 @@
 # HeadSplat
+![Demo GIF](val_person.gif)
+
 ### Abstact
 The creation of photorealistic 3D head avatars has become
 increasingly important for applications in gaming, social
