@@ -1,5 +1,4 @@
 # HeadSplat
-![Demo GIF](val_person.gif)
 
 ### Abstact
 The creation of photorealistic 3D head avatars has become
@@ -18,7 +17,10 @@ as two or even a single view, while maintaining visually
 realistic and geometrically accurate results. Our experiments
 demonstrate that HeadSplat can outperform current
 state-of-the-art methods and our ablations demonstrate its
-applicability to real-world applications. Please refer to 
+applicability to real-world applications. 
+
+![Demo GIF](val_person.gif)
+Please refer to 
 ```shell
 3DSSL_SS24_Team1_report.pdf
 ```
