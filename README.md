@@ -1,8 +1,22 @@
-
-# MICA 
-
-MICA output examples including .ply mesh, rendered image, and .npy FLAME parameters.
-
+##HeadSplat
+### Abstact
+The creation of photorealistic 3D head avatars has become
+increasingly important for applications in gaming, social
+media, and online shopping, where convincing user
+representations are crucial. However, achieving highquality
+3D head reconstructions with minimal input data remains
+a significant challenge for existing techniques, which
+struggle with sparse views and lack geometric precision.
+This paper presents HeadSplat, a novel approach for generating
+photo-realistic 3D avatars using a generalizable
+Gaussian-Splatting [4] based approach, leveraging geometrical
+priors and projected features from image encoders.
+Our method allows us to reduce the required inputs to as little
+as two or even a single view, while maintaining visually
+realistic and geometrically accurate results. Our experiments
+demonstrate that HeadSplat can outperform current
+state-of-the-art methods and our ablations demonstrate its
+applicability to real-world applications.
 
 
 # Source
