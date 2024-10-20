@@ -1,4 +1,4 @@
-##HeadSplat
+# HeadSplat
 ### Abstact
 The creation of photorealistic 3D head avatars has become
 increasingly important for applications in gaming, social
