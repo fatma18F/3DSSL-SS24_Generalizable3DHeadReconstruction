@@ -50,4 +50,3 @@ Execute the demo via
 ```bash
     BW_IMPLEMENTATION=1 python run_gaussian_splatting.py
 ```
-# 3DSSL-SS24_Generalizable3DHeadReconstruction
