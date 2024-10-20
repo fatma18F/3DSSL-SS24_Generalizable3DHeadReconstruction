@@ -20,7 +20,7 @@ applicability to real-world applications. Please refer to
 ```shell
 3DSSL_SS24_Team1_report.pdf
 ```
-for more details about experiment setup and project details. 
+for more details about experimental setup and project details. 
 
 # Source
 Modified repo of Gaussian Splatting and 3DSSL demo
