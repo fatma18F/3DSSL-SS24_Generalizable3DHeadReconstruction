@@ -20,6 +20,7 @@ state-of-the-art methods and our ablations demonstrate its
 applicability to real-world applications. 
 
 ![Demo GIF](val_person.gif)
+
 Please refer to 
 ```shell
 3DSSL_SS24_Team1_report.pdf
