@@ -16,8 +16,11 @@ as two or even a single view, while maintaining visually
 realistic and geometrically accurate results. Our experiments
 demonstrate that HeadSplat can outperform current
 state-of-the-art methods and our ablations demonstrate its
-applicability to real-world applications.
-
+applicability to real-world applications. Please refer to 
+```shell
+3DSSL_SS24_Team1_report.pdf
+```
+for more details about experiment setup and project details. 
 
 # Source
 Modified repo of Gaussian Splatting and 3DSSL demo
