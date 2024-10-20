@@ -19,7 +19,6 @@ demonstrate that HeadSplat can outperform current
 state-of-the-art methods and our ablations demonstrate its
 applicability to real-world applications. 
 
-![Demo GIF](val_person.gif)
 <p align="center">
   <img src="val_person.gif" alt="resulting avatar" />
 </p>
